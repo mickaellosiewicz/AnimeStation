@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}AnimeStation{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="/AnimeStation/public/css/mainTheme.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <a href="/AnimeStation/public/">
+                    <span>Anime</span>
+                    <span>Station</span>
+                </a>
+            </header>
+            <nav>
+                <ul>
+                    <li>Nouveautes</li>
+                    <li>Animes</li>
+                    <li>Forum</li>
+                    <li>FAQ</li>
+                    <li>Support</li>
+                    <li>
+                        <span id="search-bar">
+                            <input type="text" placeholder="Rechercher..." id="search-bar-text"><!--
+                            --><input type="button" id="search-bar-button">
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                {% block main %}{% endblock %}
+            </main>
+            <footer>
+                Copyright © 2018 Mickaël Losiewicz, Backend Developer at EmakinaFr
+            </footer>
+        </div>
+    </body>
+</html>

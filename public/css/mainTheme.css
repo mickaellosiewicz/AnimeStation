@@ -1,0 +1,212 @@
+@font-face {
+
+    font-family: "Another Danger";
+    src: url('./../fonts/another_danger.otf'),
+    url('./../fonts/another_danger.otf');
+
+}
+
+@font-face{
+
+    font-family: "Face Your Fears";
+    src: url('./../fonts/face_your_fears.ttf'),
+    url('./../fonts/face_your_fears.ttf');
+
+}
+
+@font-face{
+
+    font-family: "Dead Walking";
+    src: url('./../fonts/dead_walking.otf'),
+    url('./../fonts/dead_walking.otf');
+
+}
+
+@font-face{
+
+    font-family: "Black Dahlia";
+    src: url('./../fonts/black_dahlia.ttf'),
+    url('./../fonts/black_dahlia.ttf');
+
+}
+
+::-webkit-input-placeholder {
+
+    font-style: italic;
+
+}
+
+:-moz-placeholder {
+
+    font-style: italic;
+
+}
+
+::-moz-placeholder {
+
+    font-style: italic;
+
+}
+
+:-ms-input-placeholder {
+
+    font-style: italic;
+
+}
+
+input:focus {
+
+    outline: none !important;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url("./../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+
+#container {
+
+    background: linear-gradient(0.220turn, #181818, #3a3a3a, #181818);
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    border: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+
+}
+
+header {
+
+    background: url("./../img/header.png");
+    background-size: 100%;
+    background-position: center 500px;
+    width: content-box;
+    height: 250px;
+    position: relative;
+
+}
+
+header span {
+
+    position: absolute;
+    color: white;
+    font-family: "Another Danger";
+    font-size: 55px;
+
+}
+
+header span:first-child {
+
+    top: 30px;
+    left: 25%;
+
+}
+
+header span:last-child {
+
+    top: 115px;
+    left: 35%;
+
+}
+
+nav {
+
+    width: content-box;
+    background-color: black;
+    border: 4px double white;
+    border-left: none;
+    border-right: none;
+    height: 55px;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Face Your Fears";
+    font-size: 30px;
+    line-height: 34px;
+
+}
+
+nav ul li:last-child {
+
+    float: right;
+    padding: 0;
+    height: 100%;
+
+}
+
+#search-bar {
+
+    margin-right: 15px;
+
+}
+
+#search-bar-text {
+
+    background-color: #3a3a3a;
+    border: none;
+    padding: 4px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 15px;
+    color: white;
+    vertical-align: top;
+    height: 18px;
+    transform: translateY(49%);
+    font-family: sans-serif;
+    font-weight: normal;
+
+}
+
+#search-bar-button {
+
+    background: url("./../img/loupe.png");
+    background-size: 20px 18px;
+    background-position: 3px 4px;
+    background-color: #3a3a3a;
+    background-repeat: no-repeat;
+    border: none;
+    width: 26px;
+    border-radius: 0px 5px 5px 0px;
+    height: 26px;
+    transform: translateY(49%);
+    cursor: pointer;
+
+}
+
+footer {
+
+    background-color: black;
+    border-top: 4px double white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+    font-family: "Face Your Fears";
+    font-size: 25px;
+
+}
